@@ -1,0 +1,169 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.topo {
+    text-align: center;
+    background-color: azure;
+    margin: 10px;
+    width: 500px;
+    padding: 20px;
+    margin-top: 15%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+#mensagem {
+    color: rgb(68, 0, 255);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #00ccff, #0199be);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.bottaon {
+    border-radius: 20px;
+    background-color: rgb(38, 0, 255);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.bottaon {
+    border-radius: 20px;
+    background-color: rgb(38, 0, 255);
+    color: white;
+    cursor: pointer;
+
+}
+
+input {
+    margin-top: 10px;
+}
+
+.bottaon {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: none;
+    padding: 6px 15px;
+    font-size: 18px;
+}
+
+.bottaon:hover {
+    box-shadow: 0 0 15px 5px rgb(0, 140, 255, 0.7);
+}
+
+h1 {
+    position: absolute;
+    height: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: fill;
+    z-index: -1;
+}
+
+#email {
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    width: 300px;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background: rgb(0, 140, 255, 0.7);
+    border: 2px solid rgba(54, 54, 54, 0.329);
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+#email:focus {
+    border-color: #00ccff;
+    box-shadow: 0 0 10px #00ccff;
+}
+
+
+#senha {
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    width: 300px;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background: rgb(0, 140, 255, 0.7);
+    border: 2px solid rgba(54, 54, 54, 0.329);
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+#senha:focus {
+    border-color: #00ccff;
+    box-shadow: 0 0 10px #00ccff;
+}
+
+#butonbemvindo {
+    position: absolute;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background: transparent;
+    border: 2px solid rgb(0, 140, 255, 0.7);
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease;
+    right: 90%;
+    cursor: pointer;
+
+}
+
+.buton:butonbemvindo {
+    box-shadow: 0 0 15px 5px rgb(0, 140, 255, 0.7);
+}
+
+::placeholder {
+    color: white;
+}

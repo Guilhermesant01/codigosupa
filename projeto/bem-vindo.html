@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <video autoplay loop muted playsinline id="video">
+        <source src="img/Earth Sun Over .mp4" type="video/mp4">
+    </video>
+
+    <h2 id="mensagem">Carregando...</h2>
+    <Div class="botão">
+        <button id="butonbemvindo" onclick="logout()">Sair</button>
+    </Div>
+    <script>
+        const usuarioEmail = localStorage.getItem("usuarioEmail");
+
+        if (usuarioEmail) {
+            document.getElementById("mensagem").innerText = `Bem-vindo, ${usuarioEmail}!`;
+        } else {
+            document.getElementById("mensagem").innerText = "Usuário não autenticado!";
+        }
+
+        function logout() {
+            localStorage.removeItem("usuarioEmail");
+            window.location.href = "cadastro.html";
+        }
+    </script>
+
+</body>
+
+</html>
