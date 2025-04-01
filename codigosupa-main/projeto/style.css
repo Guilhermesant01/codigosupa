@@ -1,0 +1,199 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.topo {
+    text-align: center;
+    background-color:rgba(240, 255, 255, 0.315);
+    margin: 10px;
+    width: 500px;
+    padding: 20px;
+    margin-top: 15%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+
+
+
+}
+
+#stars{
+    position: absolute;
+    top: -70px;
+    
+}
+
+#mensagem {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
+h2 {
+    display: flex;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #000000, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -180px;
+
+}
+
+.bottaon {
+    border-radius: 20px;
+    background-color: rgb(161, 86, 0);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.bottaon {
+    border-radius: 20px;
+    background-color: rgb(146, 71, 0);
+    color: white;
+    cursor: pointer;
+
+}
+
+input {
+    margin-top: 10px;
+}
+
+.bottaon {
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: none;
+    padding: 6px 15px;
+    font-size: 18px;
+}
+
+.bottaon:hover {
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    position: absolute;
+    height: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#logo{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    
+}
+
+#video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100vw;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+}
+
+#email {
+    border-radius: 5px;
+    height: 30px;
+    width: 92%;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background: rgb(187, 78, 5);
+    border: 2px solid rgba(54, 54, 54, 0.329);
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+#email:focus {
+    border-color: #000000;
+    box-shadow: 0 0 10px #000000;
+}
+
+
+#senha {
+    border-radius: 5px;
+    height: 30px;
+    width: 92%;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background: rgb(187, 78, 5);
+    border: 2px solid rgba(54, 54, 54, 0.329);
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+#senha:focus {
+    border-color: #000000;
+    box-shadow: 0 0 10px #000000;
+}
+
+#butonbemvindo {
+    position: absolute;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    background: transparent;
+    border: 2px solid rgba(214, 138, 23, 0.7);
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease;
+    right: 90%;
+    cursor: pointer;
+
+}
+
+.buton:butonbemvindo {
+    box-shadow: 0 0 15px 5px rgba(199, 116, 8, 0.7);
+}
+
+::placeholder {
+    color: white;
+}
+
+
+#terra{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    top: 270px;
+    left: 70px;
+    
+
+}
