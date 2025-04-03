@@ -8,9 +8,10 @@ body {
 
 }
 
+/*Quadrado*/
 .topo {
     text-align: center;
-    background-color: azure;
+    background-color:rgba(0, 0, 0, 0.781);
     margin: 10px;
     width: 500px;
     padding: 20px;
@@ -23,9 +24,15 @@ body {
 
 
 }
-
+/*Logo*/
+#stars{
+    position: absolute;
+    top: -70px;
+    
+}
+/**/
 #mensagem {
-    color: rgb(68, 0, 255);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     margin-top: 10px;
 }
@@ -33,19 +40,21 @@ body {
 
 
 h2 {
+    display: flex;
     text-align: center;
     color: rgb(0, 0, 0);
     font-size: 28px;
     font-weight: bold;
-    background: linear-gradient(90deg, #00ccff, #0199be);
+    background: linear-gradient(90deg, #000000, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: -180px;
 
 }
 
 .bottaon {
     border-radius: 20px;
-    background-color: rgb(38, 0, 255);
+    background-color: rgb(161, 86, 0);
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -54,7 +63,7 @@ h2 {
 
 .bottaon {
     border-radius: 20px;
-    background-color: rgb(38, 0, 255);
+    background-color: rgb(146, 71, 0);
     color: white;
     cursor: pointer;
 
@@ -75,7 +84,7 @@ input {
 }
 
 .bottaon:hover {
-    box-shadow: 0 0 15px 5px rgb(0, 140, 255, 0.7);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.7);
 }
 
 h1 {
@@ -88,6 +97,26 @@ h1 {
 
 }
 
+/*logo da pagina*/
+#logo{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    animation: float 3s infinite ease-in-out;
+    
+    
+}
+
+@keyframes float{
+    0%{transform: translate(0);}
+    50% {transform: translate(-10px);}
+    100%{transform: translate(0);}
+}
+
+/*video de fundo*/
 #video {
     position: fixed;
     top: 50%;
@@ -97,19 +126,18 @@ h1 {
     min-width: 100%;
     min-height: 100%;
     transform: translate(-50%, -50%);
-    object-fit: fill;
+    object-fit: cover;
     z-index: -1;
 }
 
 #email {
     border-radius: 5px;
-    height: 40px;
-    width: 100%;
-    width: 300px;
+    height: 30px;
+    width: 92%;
     padding: 12px;
     font-size: 18px;
     color: white;
-    background: rgb(0, 140, 255, 0.7);
+    background: rgb(187, 78, 5);
     border: 2px solid rgba(54, 54, 54, 0.329);
     border-radius: 5px;
     outline: none;
@@ -117,20 +145,19 @@ h1 {
 }
 
 #email:focus {
-    border-color: #00ccff;
-    box-shadow: 0 0 10px #00ccff;
+    border-color: #000000;
+    box-shadow: 0 0 10px #000000;
 }
 
 
 #senha {
     border-radius: 5px;
-    height: 40px;
-    width: 100%;
-    width: 300px;
+    height: 30px;
+    width: 92%;
     padding: 12px;
     font-size: 18px;
     color: white;
-    background: rgb(0, 140, 255, 0.7);
+    background: rgb(187, 78, 5);
     border: 2px solid rgba(54, 54, 54, 0.329);
     border-radius: 5px;
     outline: none;
@@ -138,8 +165,8 @@ h1 {
 }
 
 #senha:focus {
-    border-color: #00ccff;
-    box-shadow: 0 0 10px #00ccff;
+    border-color: #000000;
+    box-shadow: 0 0 10px #000000;
 }
 
 #butonbemvindo {
@@ -151,7 +178,7 @@ h1 {
     font-size: 18px;
     color: white;
     background: transparent;
-    border: 2px solid rgb(0, 140, 255, 0.7);
+    border: 2px solid rgba(214, 138, 23, 0.7);
     border-radius: 5px;
     outline: none;
     transition: 0.3s ease;
@@ -161,9 +188,114 @@ h1 {
 }
 
 .buton:butonbemvindo {
-    box-shadow: 0 0 15px 5px rgb(0, 140, 255, 0.7);
+    box-shadow: 0 0 15px 5px rgba(199, 116, 8, 0.7);
 }
 
 ::placeholder {
     color: white;
 }
+
+
+#galaxia{
+position: absolute;
+display: flex;
+gap: 40px;
+top: 50%;
+
+}
+
+#terra{
+    width: 250px;
+    height: 250px;
+      
+}
+
+#jupiter{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+#marte{
+    width: 250px;
+    height: 250px;
+}
+
+#saturno{
+    width: 250px;
+    height: 250px;
+}
+
+#button{
+    position: absolute;
+    width: 80px;
+    height: 45px;
+    top: 105%;
+   
+}
+
+#button2{
+    position: absolute;
+    width: 80px;
+    height: 45px;
+    top: 105%;
+    left: 26%;
+    
+  
+
+}
+
+#button3{
+    position: absolute;
+    width: 80px;
+    height: 45px;
+    top: 105%;
+    
+    left: 52%;
+  
+
+}
+
+#button4{
+    position: absolute;
+    width: 80px;
+    height: 45px;
+    top: 105%;
+    left: 78%;
+  
+
+}
+
+
+
+#galaxia2{
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    top: 110%;
+    
+    
+    }
+    
+    #venus{
+        width: 250px;
+        height: 250px;
+    }
+    
+    #netuno{
+        width: 250px;
+        height: 250px;
+    }
+    
+    #plutao{
+        width: 250px;
+        height: 250px;
+    }
+    
+    #mercurio{
+        width: 250px;
+        height: 250px;
+    }
+
+
